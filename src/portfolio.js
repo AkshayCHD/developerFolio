@@ -7,8 +7,8 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "AkshayCHD",
+  title: "Hi all, I'm Akshay",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
@@ -122,29 +122,30 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo:  require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Development Intern",  
+      company: "Block8",
+      companylogo:  require("./assets/images/block8logo.png"),
+      date: "January 2020 – Present",
+      desc: 'The internship was divided in three phases as follows',
       subPoints: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "In the first phase we gatherered some general learnings abount the company's tech stack, and created some minor project on them",
+        "In the second phase we created a full stack leave management system application using loopback framework for backend, to build a scalable and efficient api",
+        "In the third phase we worked on a project that was aimed at creating a decentralized instant exchange for ERC20 tokens, on the ethereum blockchain, that could manage the exchange rates based on supply and demand on the respective tokens"
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: "https://www.referralcandy.com/wp-content/uploads/2017/06/quora-featured-image-2-740x740.png",
+      role: "Google Summer of Code",
+      company: "KDE",
+      companylogo: require("./assets/images/gsoclogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Worked on KDE’s Project Gcompris to add multiple datasets to activities. Improved activity code by integrating logic to use multiple datasets instead of a single one. Improved the reach of an activity my making it usable for students of various age groups Leveraged knowledge of version control tools like git, phabricator, arcanist and languages like qml, javascript, Qt."
     },
     {
       role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.jpg"),
+      company: "Chaincode Consulting LLP",
+      companylogo: require("./assets/images/chaincodeconsultinglogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
   ]
 };
@@ -153,8 +154,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubConvertedToken: process.env.REACT_APP_GITHUB_AUTH,
+  githubUserName: "AkshayCHD", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -185,10 +186,10 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      title: "SIH 2019 Winner",
+      subtitle: "Won SIH 2019 Hardware edition, under the problem statement given by company Kokuyo Camlin",
       image:
-        "https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png",
+        require("./assets/images/sihlogo.png"),
       footerLink: [
         { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
         { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
@@ -196,10 +197,21 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Codechef CDSAP Certification",
+      subtitle: "Successfully passed Codechef's CCDSAP Foundation level exam",
+      image: 
+        require("./assets/images/codecheflogo.jpg"),
+      footerLink: [{ name: "Certificate", url: "https://www.codechef.com/certificates/public/f337745" }]
+    },
+
+    {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
+      footerLink: [
+        { name: "Certification", url: "" },
+        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+      ]
     },
 
     {
@@ -243,12 +255,19 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
+      title: "My Journey with Gcompris",
+      subtitle: "KDE conf 2020",
+      slides_url: "https://docs.google.com/presentation/d/10DK7GMzlBHcmBvXbPV3BW2xpUGBwcxvb6d6Yp9iiXqQ/edit?usp=sharing",
+      event_url: "https://conf.kde.in/",
       image:
-        "https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.0-9/76714032_1730516240415559_1293494289556307968_o.jpg?_nc_cat=103&_nc_ohc=s5f81rdZd6wAQmqUa52YQBA21MjVOy7e-HN9jI7MspRDC-v5ahEouyInQ&_nc_ht=scontent.fkhi6-1.fna&oh=c29141a9a0de7ff2011a8191f5475a78&oe=5E83127C"
+        require("./assets/images/kdelogo.png"),
+    },
+    {
+      title: "Unblocking Blockchain",
+      subtitle: "Block8 Blockchain Bootcamp",
+      slides_url: "https://docs.google.com/presentation/d/1TadCwf5jZXjlqaHRzPrSBIVoDBRHYV-hue_rrW_IVGo/edit?usp=sharing",
+      image:
+        require("./assets/images/kdelogo.png"),
     }
   ]
 };
