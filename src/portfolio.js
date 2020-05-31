@@ -17,11 +17,10 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/AkshayCHD",
+  linkedin: "https://www.linkedin.com/in/dev-akshay-kumar/",
+  gmail: "email.akshay98@gmail.com",
+  gitlab: "https://gitlab.com/AkshayCHD",
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -130,10 +129,10 @@ const workExperiences = {
       company: "Block8",
       companylogo:  require("./assets/images/block8logo.png"),
       date: "January 2020 – Present",
-      desc: 'The internship was divided in three phases as follows',
+      desc: 'The internship was a sixth month onsite program at block8 chandigarh. Block8 is an Austrailian company, which majorly deals with blockchain based projects. My learnings at block8 can be summarized as ',
       subPoints: [
         "In the first phase we gatherered some general learnings abount the company's tech stack, and created some minor project on them",
-        "In the second phase we created a full stack leave management system application using loopback framework for backend, to build a scalable and efficient api",
+        "In the second phase we created a full stack leave management system application using loopback4 framework for backend, to build a scalable and efficient api adhereing to the best architecture practices",
         "In the third phase we worked on a project that was aimed at creating a decentralized instant exchange for ERC20 tokens, on the ethereum blockchain, that could manage the exchange rates based on supply and demand on the respective tokens"
       ]
     },
@@ -142,7 +141,7 @@ const workExperiences = {
       company: "KDE",
       companylogo: require("./assets/images/gsoclogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Leveraged knowledge of version control tools like git, phabricator, arcanist and languages like qml, javascript, Qt.",
+      desc: "The internship was a three month remote program that was sponsored by Google. My project was based on KDE's open source project Gcompris, to which I was already contributing for the past 9 months. My work during gsoc can be summarized as. ",
       subPoints: [
         "Worked on KDE’s Project Gcompris to add multiple datasets to activities",
         "Improved activity code by integrating logic to use multiple datasets instead of a single one.",
@@ -155,7 +154,7 @@ const workExperiences = {
       company: "Chaincode Consulting LLP",
       companylogo: require("./assets/images/chaincodeconsultinglogo.png"),
       date: "Jan 2019 – Sep 2019",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "The internship was a three months part time program at a Chandigarh based company. We worked on a hyperledger fabric based project, that was realted to automating the process of money collection at petrol pumps using blockchain",
       subPoints: [
         "Studied the architecture of hyperledger fabric.",
         "Worked on making the fabric network more dynamic by using Fabric CA instead of static certificate generators like cryptogen and implementing functionality to add new orgs.",
@@ -179,17 +178,26 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Major Projects",
   projects: [
     {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-      link: "http://saayahealth.com/"
+      title: "SIH 2019 Winner",
+      subtitle: "Won SIH 2019 Hardware edition, under the problem statement given by company Kokuyo Camlin",
+      image:
+        require("./assets/images/sihlogo.png"),
+      footerLink: [
+        { name: "Certificate", url: "https://drive.google.com/file/d/1lfaI-ftCnS_luvLSRU6oboBMigt_uuRy/view?usp=sharing" }
+      ]
     },
     {
-      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-      link: "http://nextu.se/"
-    }
+      title: "SIH 2019 Winner",
+      subtitle: "Won SIH 2019 Hardware edition, under the problem statement given by company Kokuyo Camlin",
+      image:
+        require("./assets/images/sihlogo.png"),
+      footerLink: [
+        { name: "Certificate", url: "https://drive.google.com/file/d/1lfaI-ftCnS_luvLSRU6oboBMigt_uuRy/view?usp=sharing" }
+      ]
+    },
   ]
 };
 
@@ -276,9 +284,16 @@ const talkSection = {
         require("./assets/images/kdelogo.png"),
     },
     {
-      title: "Unblocking Blockchain",
+      title: "Unblocking Blockchain Webminar",
       subtitle: "Block8 Blockchain Bootcamp",
       slides_url: "https://docs.google.com/presentation/d/1TadCwf5jZXjlqaHRzPrSBIVoDBRHYV-hue_rrW_IVGo/edit?usp=sharing",
+      image:
+        require("./assets/images/kdelogo.png"),
+    },
+    {
+      title: "Open Source vs CP Panel",
+      subtitle: "Software Freedom Day",
+      event_url: "http://softwarefreedomday.in/#Gallery",
       image:
         require("./assets/images/kdelogo.png"),
     }
@@ -298,8 +313,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8968923902",
+  email_address: "email.akshay98@gmail.com"
 };
 
 //Twitter Section
