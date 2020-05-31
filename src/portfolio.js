@@ -101,16 +101,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Data Structures and Algorithms",  //Insert stack or technology you have experience in
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Backend Development",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Frontend Development",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Blockchain Development",
+      progressPercentage: "90%"
     }
   ]
 };
@@ -138,14 +142,26 @@ const workExperiences = {
       company: "KDE",
       companylogo: require("./assets/images/gsoclogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Worked on KDE’s Project Gcompris to add multiple datasets to activities. Improved activity code by integrating logic to use multiple datasets instead of a single one. Improved the reach of an activity my making it usable for students of various age groups Leveraged knowledge of version control tools like git, phabricator, arcanist and languages like qml, javascript, Qt."
+      desc: "Leveraged knowledge of version control tools like git, phabricator, arcanist and languages like qml, javascript, Qt.",
+      subPoints: [
+        "Worked on KDE’s Project Gcompris to add multiple datasets to activities",
+        "Improved activity code by integrating logic to use multiple datasets instead of a single one.",
+        "Improved the reach of an activity my making it usable for students of various age groups",
+        "Leveraged knowledge of version control tools like git, phabricator, arcanist and languages like qml, javascript, Qt."
+      ]
     },
     {
       role: "Software Engineer Intern",  
       company: "Chaincode Consulting LLP",
       companylogo: require("./assets/images/chaincodeconsultinglogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2019 – Sep 2019",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      subPoints: [
+        "Studied the architecture of hyperledger fabric.",
+        "Worked on making the fabric network more dynamic by using Fabric CA instead of static certificate generators like cryptogen and implementing functionality to add new orgs.",
+        "Improved the reach of an activity my making it usable for students of various age groups",
+        "Leveraged knowledge in hyperledger fabric architecture and implementation, node js, GoLang."
+      ]
     },
   ]
 };
@@ -191,9 +207,7 @@ const achievementSection = {
       image:
         require("./assets/images/sihlogo.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certificate", url: "https://drive.google.com/file/d/1lfaI-ftCnS_luvLSRU6oboBMigt_uuRy/view?usp=sharing" }
       ]
     },
     {
@@ -203,24 +217,23 @@ const achievementSection = {
         require("./assets/images/codecheflogo.jpg"),
       footerLink: [{ name: "Certificate", url: "https://www.codechef.com/certificates/public/f337745" }]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
+      title: "Winner at Advitya IIT Ropar",
+      subtitle: "Secured positions at IIT Ropar's intercollege hackathons twice.",
+      image: require("./assets/images/iitroparlogo.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Year 2017", url: "https://drive.google.com/file/d/18MgikYU6ScZpat6Qq7-62_iYSTpWhGs4/view?usp=sharing" },
+        { name: "Year 2018", url: "https://drive.google.com/file/d/1MFwIop4R6TmSGSfpJ94myksDS3sIJbMC/view?usp=sharing" }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
+      title: "Winner at Pecfest Chandigarh",
+      subtitle: "Secured positions at PEC Chandigarh's annual intercollege hackathon",
+      image:  require("./assets/images/pecchandigarhlogo.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Year 2017", url: "https://drive.google.com/file/d/1-CIW84lxipr8HChp49CznzzMwFoUeEBX/view?usp=sharing" },
+        { name: "Year 2018", url: "https://drive.google.com/file/d/13b5sYSFP1geH2WduVnguNcHSLTGYl97G/view?usp=sharing" }
       ]
     }
   ]
