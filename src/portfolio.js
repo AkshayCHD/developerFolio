@@ -28,29 +28,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop highly scalable backend services using latest javascript frameworks like loopback4 and nestjs"),
+    emoji("⚡ Create and contribute to open source projects that aim at solving real world problems faced by people."),
+    emoji("⚡ Develop decentralized logic along with frontend applications to interact with it, using libraries like web3js."),
+    emoji("⚡ Solve optimisations and efficiency based problems based on Data structures and Algorithms.")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -84,12 +72,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "ethereum",
+      fontAwesomeClassname: "fab fa-ethereum"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "blockchain",
+      fontAwesomeClassname: "fab fa-btc"
     }
   ]
 };
@@ -181,23 +169,41 @@ const bigProjects = {
   title: "Major Projects",
   projects: [
     {
-      title: "SIH 2019 Winner",
-      subtitle: "Won SIH 2019 Hardware edition, under the problem statement given by company Kokuyo Camlin",
+      title: "Swappy",
+      subtitle: "An ethereum based decentralized exchange to swap ERC20 tokens.",
       image:
-        require("./assets/images/sihlogo.png"),
+        require("./assets/images/swappylogo.jpg"),
       footerLink: [
-        { name: "Certificate", url: "https://drive.google.com/file/d/1lfaI-ftCnS_luvLSRU6oboBMigt_uuRy/view?usp=sharing" }
       ]
     },
     {
-      title: "SIH 2019 Winner",
-      subtitle: "Won SIH 2019 Hardware edition, under the problem statement given by company Kokuyo Camlin",
+      title: "BidChain",
+      subtitle: "A platform to host anonymous auctions in a decentralized fashion.",
       image:
-        require("./assets/images/sihlogo.png"),
+        require("./assets/images/bidchain.jpg"),
       footerLink: [
-        { name: "Certificate", url: "https://drive.google.com/file/d/1lfaI-ftCnS_luvLSRU6oboBMigt_uuRy/view?usp=sharing" }
+        { name: "Deployment", url: "http://bidchain.herokuapp.com/" }
       ]
     },
+    {
+      title: "Sensor Api",
+      subtitle: "A realtime dashboard to display data from various sensors in real time, through a websockets based nodejs backend",
+      image:
+        require("./assets/images/sensorapilogo.jpg"),
+      footerLink: [
+        { name: "Deployment", url: "http://sensorapiturings.herokuapp.com/" }
+      ]
+    },
+    {
+      title: "LMS",
+      subtitle: "A production grade leave management system, with backend created using latest loopback 4 framework",
+      image:
+        require("./assets/images/lmslogo.png"),
+      footerLink: [
+        { name: "Frontend", url: "http://13.127.203.165:3000/" },
+        { name: "Backend", url: "http://54.198.227.235:5000/explorer/" }
+      ]
+    }
   ]
 };
 
@@ -237,7 +243,7 @@ const achievementSection = {
 
     {
       title: "Winner at Pecfest Chandigarh",
-      subtitle: "Secured positions at PEC Chandigarh's annual intercollege hackathon",
+      subtitle: "Secured positions at PEC Chandigarh's annual intercollege hackathon twice",
       image:  require("./assets/images/pecchandigarhlogo.png"),
       footerLink: [
         { name: "Year 2017", url: "https://drive.google.com/file/d/1-CIW84lxipr8HChp49CznzzMwFoUeEBX/view?usp=sharing" },
@@ -256,7 +262,7 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      url: "https://gist.github.com/AkshayCHD/54a0d1a0d19b96a538bfe7deb2d81602",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
