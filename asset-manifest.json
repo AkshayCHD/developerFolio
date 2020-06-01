@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e84d9236.chunk.css",
+    "main.js": "/static/js/main.b3771126.chunk.js",
+    "main.js.map": "/static/js/main.b3771126.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1b72d2a7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1b72d2a7.js.map",
+    "static/js/2.95591e0d.chunk.js": "/static/js/2.95591e0d.chunk.js",
+    "static/js/2.95591e0d.chunk.js.map": "/static/js/2.95591e0d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0fbe5c221c68fba260f7976f91edbb31.js": "/precache-manifest.0fbe5c221c68fba260f7976f91edbb31.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e84d9236.chunk.css.map": "/static/css/main.e84d9236.chunk.css.map",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/chaincodeconsultinglogo.png": "/static/media/chaincodeconsultinglogo.af496585.png",
+    "static/media/codecheflogo.jpg": "/static/media/codecheflogo.cafd0bcd.jpg",
+    "static/media/contactMail.png": "/static/media/contactMail.d6d4086f.png",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/iitroparlogo.png": "/static/media/iitroparlogo.d3542aea.png",
+    "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
+    "static/media/pecchandigarhlogo.png": "/static/media/pecchandigarhlogo.f65d1887.png",
+    "static/media/profile.jpg": "/static/media/profile.19721cb2.jpg",
+    "static/media/sensorapilogo.jpg": "/static/media/sensorapilogo.bf314b90.jpg",
+    "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/swappylogo.jpg": "/static/media/swappylogo.0861cedf.jpg",
+    "static/media/TalkCard.css": "/static/media/talksCardBack.0288c5ec.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b72d2a7.js",
+    "static/js/2.95591e0d.chunk.js",
+    "static/css/main.e84d9236.chunk.css",
+    "static/js/main.b3771126.chunk.js"
+  ]
+}
